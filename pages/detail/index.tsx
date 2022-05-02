@@ -107,7 +107,7 @@ export default function Detail() {
               <div className="row align-items-center">
                 <div className="col-md-12 col-4">
                   <img
-                    src="../assets/img/Thumbnail-3.png"
+                    src="/img/Thumbnail-3.png"
                     width="280"
                     height="380"
                     className="img-fluid"
