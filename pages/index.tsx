@@ -1,8 +1,5 @@
-import type { NextPage } from "next";
 import AOS from "aos";
-import { useEffect } from "react";
-
-import React from "react";
+import React, { useEffect } from "react";
 
 function Home() {
   useEffect(() => {
