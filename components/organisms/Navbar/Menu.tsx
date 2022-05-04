@@ -10,11 +10,11 @@ interface MenuProps {
 
 export default function Menu(props: Partial<MenuProps>) {
   const { title, active, href = "/" } = props;
-  const classTitle = cx({ "nav-link": true, active: active });
+  let classTitle = cx({ "nav-link": true, active: active });
   return (
     <li className="nav-item my-auto">
       <Link href={href}>
-        <a className="nav-link active" aria-current="page" href="">
+        <a className={classTitle} aria-current="page" href="">
           {title}
         </a>
       </Link>
